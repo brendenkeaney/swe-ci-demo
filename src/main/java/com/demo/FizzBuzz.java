@@ -4,9 +4,8 @@ public class FizzBuzz
 {
     String processNumber(int num)
 	{	
-    	// Copy your code here
-	    
-		return 1;
+    String s = Integer.toString(num);
+      return s;
 	}
 	
 	String processNumbers (int[] numList)
