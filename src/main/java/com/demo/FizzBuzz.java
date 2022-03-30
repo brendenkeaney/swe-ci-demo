@@ -5,10 +5,10 @@ public class FizzBuzz
     String processNumber(int num)
 	{	
 	if (num % 3 == 0){
-		return "fizz";
+		return "Fizz";
 	}
 	    else if (num % 5 == 0){
-	    return "buzz";
+	    return "Buzz";
 	    }
 	    
 	    String s = Integer.toString(num);
