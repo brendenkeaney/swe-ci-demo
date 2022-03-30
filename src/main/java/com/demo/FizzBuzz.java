@@ -10,7 +10,9 @@ public class FizzBuzz
 	    else if (num % 5 == 0){
 	    return "Buzz";
 	    }
-	    
+	    else if (num % 3 == - && num % 5 == 0){
+		    return "FizzBuzz";
+	    }
 	    String s = Integer.toString(num);
 	 
       return s;
