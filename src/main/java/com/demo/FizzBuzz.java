@@ -4,7 +4,15 @@ public class FizzBuzz
 {
     String processNumber(int num)
 	{	
-    String s = Integer.toString(num);
+	if (num % 3 == 0){
+		return "fizz";
+	}
+	    else if (num % 5 == 0){
+	    return "buzz";
+	    }
+	    
+	    String s = Integer.toString(num);
+	 
       return s;
 	}
 	
