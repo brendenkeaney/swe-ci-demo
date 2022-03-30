@@ -10,8 +10,25 @@ public class FizzBuzz
 	
 	String processNumbers (int[] numList)
 	{
-    	// Copy your code here
-		return 1;
+    	String string =""; 
+      String s ="";
+      for (int i =0; i < numList.length; i++) {
+        if(((numList[i] % 5) == 0) && ((numList[i] % 3) == 0)){
+          s = "fizzbuzz";
+
+        } else if ((numList[i] % 5) == 0){
+           s = "buzz";
+
+         } else if ((numList[i] % 3 ) ==0 ){
+           s = "fizz";
+
+         }else {
+           s = processNumber(numList[i]);
+         }
+        string +=s;
+      }
+    return string;
+    
 	}
 
 }
